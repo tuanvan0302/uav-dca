@@ -1,0 +1,66 @@
+{
+ "K": 28,
+ "eps_levels": [
+  0.05,
+  0.1
+ ],
+ "counts": {
+  "step|comb|__all__": 3840,
+  "step|comb|age_mid": 1920,
+  "step|comb|age_new": 960,
+  "step|comb|age_old": 960,
+  "step|pos|__all__": 3840,
+  "step|pos|age_mid": 1920,
+  "step|pos|age_new": 960,
+  "step|pos|age_old": 960,
+  "step|rad|__all__": 3840,
+  "step|rad|age_mid": 1920,
+  "step|rad|age_new": 960,
+  "step|rad|age_old": 960,
+  "traj|age_new": 960,
+  "traj|__all__": 3840,
+  "traj|age_mid": 1920,
+  "traj|age_old": 960
+ },
+ "meta": {
+  "protocol_version": "1.2",
+  "status": "CHUAN_BI_GD2 — số chuẩn bị (hiệu chuẩn ngoại tuyến, một nguồn); chưa phải đóng băng GĐ2 chính thức theo §4.3/§4.5",
+  "score": "s_k = e_vt,k + e_ht,k (TỔNG các kênh theo mét, §4.2 bản 1.2; vật cầu e_yaw ≡ 0); S = max_k s_k (mức lần chạy)",
+  "calibration": "họ ngẫu nhiên hóa §4.3 (cầu (i)-(iii)), loại trừ hộp ±0,05 quanh vectơ đánh giá",
+  "draw_audit": {
+   "crossing": {
+    "accepted": 80,
+    "rejected": 0
+   },
+   "headon": {
+    "accepted": 80,
+    "rejected": 0
+   },
+   "deform": {
+    "accepted": 80,
+    "rejected": 0
+   }
+  },
+  "n_instances": 240,
+  "t_nows": [
+   2.0,
+   3.0,
+   4.0,
+   5.0
+  ],
+  "n_hists": [
+   2,
+   4,
+   8,
+   12
+  ],
+  "age_groups": {
+   "2": "age_new",
+   "4": "age_mid",
+   "8": "age_mid",
+   "12": "age_old"
+  },
+  "scores_sha256": "23efae6ba6780c2f1e04e7583cfaf84344590a6a57d85a25e86e82ac3cce9e57",
+  "note": "Kênh hình dạng/yaw (họ (iv)-(vi) §4.3) thuộc module dự báo hình dạng (Mộc); ở đây chỉ có giao diện record_shape_forecast, chưa có số hiệu chuẩn."
+ }
+}

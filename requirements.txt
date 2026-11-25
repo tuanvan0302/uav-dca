@@ -1,0 +1,10 @@
+# Phiên bản thư viện ghim cho gói SOTA (Python 3.12). Mọi test trong
+# code/ chạy với đúng các bản này; ghim để tái lập kết quả số.
+numpy==2.5.5
+scipy==1.18.1
+cvxpy==1.9.3
+osqp==1.1.3
+clarabel==0.11.1
+# Solver nón: không ghim ECOS. baselines/common.conic_solver_choice chọn
+# ECOS nếu có, ngược lại Clarabel (thay thế SPEC cho phép, DV-B2); tên
+# solver và dung sai thực dùng được ghi vào metadata từng lần gọi.

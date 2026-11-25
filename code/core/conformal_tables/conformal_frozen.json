@@ -1,0 +1,100 @@
+{
+ "protocol_version": "1.2",
+ "status": "CHUAN_BI_GD2 — số chuẩn bị (hiệu chuẩn ngoại tuyến, một nguồn); chưa phải đóng băng GĐ2 chính thức theo §4.3/§4.5",
+ "score_definition": "s_k = e_vt,k + e_ht,k (TỔNG các kênh theo mét, §4.2 bản 1.2; vật cầu e_yaw ≡ 0); S = max_k s_k",
+ "rho_traj": {
+  "age_new": {
+   "0.05": 8.76637117634925,
+   "0.1": 8.503246280166112
+  },
+  "age_mid": {
+   "0.05": 2.8887483005019785,
+   "0.1": 2.5693082920291
+  },
+  "age_old": {
+   "0.05": 2.299234648575091,
+   "0.1": 1.913270253414281
+  },
+  "__all__": {
+   "0.05": 7.681465807445949,
+   "0.1": 6.224122667844943
+  }
+ },
+ "rho_traj_bootstrap95": {
+  "age_new": {
+   "0.05": [
+    8.684620791294094,
+    8.830596904327034
+   ],
+   "0.1": [
+    8.380730944297982,
+    8.59670447320037
+   ]
+  },
+  "age_mid": {
+   "0.05": [
+    2.800886698664121,
+    2.9849672116385717
+   ],
+   "0.1": [
+    2.4763413611564693,
+    2.622126412909776
+   ]
+  },
+  "age_old": {
+   "0.05": [
+    2.1818445742424646,
+    2.4019228768532463
+   ],
+   "0.1": [
+    1.8147192809535824,
+    2.077454191676967
+   ]
+  },
+  "__all__": {
+   "0.05": [
+    7.451500882778168,
+    7.8846763785692735
+   ],
+   "0.1": [
+    5.971994266277073,
+    6.425683305868518
+   ]
+  }
+ },
+ "counts": {
+  "step|comb|__all__": 3840,
+  "step|comb|age_mid": 1920,
+  "step|comb|age_new": 960,
+  "step|comb|age_old": 960,
+  "step|pos|__all__": 3840,
+  "step|pos|age_mid": 1920,
+  "step|pos|age_new": 960,
+  "step|pos|age_old": 960,
+  "step|rad|__all__": 3840,
+  "step|rad|age_mid": 1920,
+  "step|rad|age_new": 960,
+  "step|rad|age_old": 960,
+  "traj|age_new": 960,
+  "traj|__all__": 3840,
+  "traj|age_mid": 1920,
+  "traj|age_old": 960
+ },
+ "n_instances": 240,
+ "draw_audit": {
+  "crossing": {
+   "accepted": 80,
+   "rejected": 0
+  },
+  "headon": {
+   "accepted": 80,
+   "rejected": 0
+  },
+  "deform": {
+   "accepted": 80,
+   "rejected": 0
+  }
+ },
+ "scores_sha256": "23efae6ba6780c2f1e04e7583cfaf84344590a6a57d85a25e86e82ac3cce9e57",
+ "scope_note": "CHUẨN BỊ GĐ2: đóng băng ở phạm vi module ngoại tuyến (họ cầu (i)-(iii)), điểm số dạng TỔNG theo §4.2 bản 1.2; đóng băng GĐ2 đầy đủ theo §4.5 (hai nguồn thu episode vòng kín) thuộc đợt GĐ2 chính thức — xem DEVIATIONS trong README_H1.md."
+}

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Môi trường ảo và công cụ
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Kết quả chạy thực nghiệm (sinh lại được từ script)
+code/experiments/results_*/
+code/sim/scenarios_pkg/smoke_results/
+
+# Gói nén chuyển code qua lại
+*.zip
+
+# Hệ điều hành và editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
